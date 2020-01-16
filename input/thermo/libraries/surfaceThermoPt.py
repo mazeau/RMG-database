@@ -217,31 +217,6 @@ entry(
 )
 
 entry(
-    index = 10,
-    label = "O-NH2_ads",
-    molecule =
-"""
-1 X  u0 p0 c0 {3,S}
-2 N  u0 p1 c0 {3,S} {4,S} {5,S}
-3 O  u0 p2 c0 {1,S} {2,S}
-4 H  u0 p0 c0 {2,S}
-5 H  u0 p0 c0 {2,S}
-""",
-    thermo = NASA(
-        polynomials = [
-            NASAPolynomial(coeffs=[2.40658689E+00, 1.61838708E-02, -1.58074626E-05, 8.48925729E-09, -1.83038307E-12, -1.87460468E+04, -7.56970401E+001], Tmin=(298.0,'K'), Tmax=(1000.0, 'K')),
-            NASAPolynomial(coeffs=[9.42636683E+00, -5.74378741E-03, 1.01435819E-05, -5.32742710E-09, 9.43135142E-13, -2.05528783E+04, -4.31963080E+01], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
-        ],
-        Tmin = (298.0, 'K'),
-        Tmax = (2000.0, 'K'),
-    ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
-            Based on DFT calculations by Jelena Jelic at KIT.
-            DFT binding energy: -0.698 eV.
-            Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 1.09537 eV, gamma_O(X) = 0.500.""",
-)
-
-entry(
     index = 11,
     label = "O-CH3_ads",
     molecule =
