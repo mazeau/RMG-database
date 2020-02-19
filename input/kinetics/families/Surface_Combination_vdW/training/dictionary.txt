@@ -1,0 +1,27 @@
+Cu*
+1 *5 X u0 p0 c0
+
+HCOOCH3*
+1    O u0 p2 c0 {2,D}
+2 *4 C u0 p0 c0 {1,D} {3,S} {5,S}
+3 *3 O u0 p2 c0 {2,S} {4,S}
+4 *2 C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+5    H u0 p0 c0 {2,S}
+6 *6 H u0 p0 c0 {4,S}
+7    H u0 p0 c0 {4,S}
+8    H u0 p0 c0 {4,S}
+9 *1 X u0 p0 c0
+
+CH2O_1*
+1 *2 C u0 p0 c0 {2,D} {3,S} {4,S}
+2 *3 O u0 p2 c0 {1,D}
+3    H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5 *1 X u0 p0 c0
+
+CH2O_2*
+1 *4 C u0 p0 c0 {2,D} {3,S} {4,S}
+2    O u0 p2 c0 {1,D}
+3 *6 H u0 p0 c0 {1,S}
+4    H u0 p0 c0 {1,S}
+5 *5 X u0 p0 c0
