@@ -49,6 +49,27 @@ entry(
     """
 )
 
+# entry(
+#     index = 7,
+#     label = "N_X + N_X <=> N2 + X + X",
+#     kinetics = SurfaceArrehnius(
+#         A = (4.02e14, 'm^2/(mol*s)'),
+#         n = 0,
+#         Ea=(113.9, 'kJ/mol'),
+#         Tmin = (200, 'K'),
+#         Tmax = (3000, 'K'),
+#     ),
+#     shortDesc = u"""N2 Adsorption Dissociative""",
+#     longDesc = u"""
+#     Experimental and microkinetic modeling of steady-state NO reduction by H2 on Pt/BaO/Al2O3 monolith catalysts
+#     Xu, Clayton, Balakotaiah, Harold et al.
+#     doi: 10.1016.j.apcatb.2007.08.008
+#
+#     This is R7
+#     metal = 'Pt'
+#     """
+# )
+
 entry(
     index = 51,
     label = "NO_X + X <=> N_X + O_X",
